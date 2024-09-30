@@ -111,9 +111,9 @@ npx json-server data/db.json
 
 O servidor será iniciado e estará disponível em http://localhost:3000.
 
-### 5. Opção login
+### 6. Opção login
 
-Caso não deseje cadastrar-se, use o login:
+Caso não deseje se cadastrar, use o login:
 
 ```sh
 Usuário: admin
