@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon">
+  <title>Trabalho Interdisciplinar - Documentação</title>
+  <meta name="description" content="Documentação do projeto da disciplina de Trabalho Interdisciplinar">
+  <meta name="author" content="Rommel Carneiro (WebTech)">
+
+  <!-- Stylesheet ========================= -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Document Wrapper  =============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button type="button" id="sidebarCollapse" class="navbar-toggler d-block d-md-none"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png" alt="iDocs Template"> </a>
+          <span class="text-2 ml-2">v2.0</span>
+          <!-- Logo End -->
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Content ============================ -->
+    <main id="content">
+
+      <!-- Sidebar Navigation	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#ti_intro">Introdução</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_contexto">Contexto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_concepcao">Concepção</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_processo_dt">Design Thinking</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_especificacoes">Especificações</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_projeto_interfaces">Projeto de Interfaces</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_metodologia">Metodologia</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_ferramentas">Ferramentas</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_gestao_projeto">Gestao do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_controle_versao">Controle de Versão</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_solucao">Solução</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_video">Vídeo do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_funcionalidades">Funcionalidades</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_estruturas_dados">Estruturas de Dados</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_modulos_apis">Módulos e APIs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_referencias">Referências</a></li>
+        </ul>
+      </div>
+
+      <!-- Docs Content ============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Introdução ============================ -->
+          <section id="ti_intro">
+            <h2>Introdução</h2>
+            <p class="lead">Informações básicas do projeto como nome e membros da equipe.</p>
+
+            <section id="ti_intro_info">
+              <h4>Informações Gerais</h4>
+              <div class="row">
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li><strong>Projeto:</strong> SOFIA</li>
+                    <li><strong>Repositório GitHub:</strong> <a href="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0387100-sofia">SOFIA</a>
+                    </li>
+                    <li><strong>Membros da equipe:</strong>
+                      <ul>
+                        <li><a href="https://github.com/Fernanda-Sabino">Fernanda Sabino Dutra</a></li>
+                        <li><a href="https://github.com/Md1o1">Kelvin Gustavo Fernandes Mendes</a></li>
+                        <li><a href="https://github.com/lucasledsham">Lucas Nunes Leal Ledsham</a></li>
+                        <li><a href="https://github.com/VictorGAC">Victor Guimarães de Alvarenga Cunha</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Contexto ============================ -->
+          <section id="ti_contexto">
+            <h2>Contexto</h2>
+            <p class="lead">Detalhes sobre o espaço de problema, justificativas e os objetivos do projeto.</p>
+            <section>
+              <h5>Problema
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseProblema">Info</button>
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProblema">
+                Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+              </div>
+              <p>O problema que a aplicação enfrentará é a vulnerabilidade dos idosos aos golpes na internet devido à falta de familiaridade com o mundo digital. Muitos idosos não estão familiarizados com as nuances da segurança online, o que os torna alvos fáceis para que golpistas ou pessoas maliciosas se aproveitem dessa falta de conhecimento. Além disso, a falta de segurança dos idosos na internet representa um desafio adicional, já que muitos deles podem precipitadamente compartilhar informações pessoais sensíveis ou serem vítimas de phishing, fraudes financeiras e outros tipos de crimes cibernéticos.</p>
+            </section>
+            <section>
+              <h5>Objetivos
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseObjetivos">Info</button>
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseObjetivos">
+                Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+              </div>
+              <p>Nosso objetivo é criar um site destinado a idosos, onde eles possam encontrar informações de seu interesse e aprender a se proteger contra golpes online. O site terá seções explicativas sobre temas como Educação Digital, Verificação de Links e Emails, Filtros de Conteúdo, Compartilhamento Seguro de Informações, além de outras funcionalidades.</p>
+            </section>
+
+            <section>
+              <h5>Justificativa
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseJustificativa">Info</button>
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseJustificativa">
+                Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software. O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+              </div>
+              <p>Identificamos que por conta de uma falta de educação digital, de forma ingênua, muitos idosos acabam se tornando vítimas de ataques digitais de golpistas, muitas vezes acarretando em prejuízos financeiros e morais.<br>A SOFIA nasceu para suprir esse problema da falta de informação sobre segurança digital, trazendo uma plataforma intuitiva, de forma á informar e evitar que mais pessoas se tornem vítimas desses ataques mais comuns.</p>
+            </section>
+
+            <section>
+              <h5>Público-alvo
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapsePublico">Info</button>
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePublico">
+                Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+                Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+              </div>
+              <p>Sofia direciona seus esforços ao público idoso, caracterizado por sua dificuldade em acessar informações online com segurança e pela falta de familiaridade com a navegação e utilização adequada de websites.</p>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Concepção ============================ -->
+          <section id="ti_concepcao">
+            <h2>Concepção (Design Thinking)</h2>
+            <p class="lead">Detalhes do processo de discovery do projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseConcepcao">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseConcepcao">
+              <p>Apresente o processo de discovery do projeto. Com foco na experiência do usuário, esse processo abrange a compreensão do contexto do problema e das características do usuário, a definição do problema, a geração de ideias, a prototipagem e a elaboração de uma proposta de solução</p>
+            </div>
+
+            <section id="ti_processo_dt">
+              <h4>Processo de Design Thinking</h4>
+              <p>O arquivo que se segue apresenta o resultado desse processo.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseProcesso">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProcesso">
+                <p>Apresente o processo de Design Thinking realizado pelo grupo e documentado por meio do software Miro. No documento apresentado, devem ser incluídos: (1) a matriz CSD, (2) o mapa de stakeholders, (3) as personas, (4) as respectivas propostas de valor e (5) o processo de ideação identificando as ideias levantadas e sua priorização.</p>
+              </div>
+              <object data="assets/files/processo-dt.pdf" type="application/pdf" width="100%" height="500px">
+                <p>Não foi possível apresentar o arquivo PDF. Faça o download e abra no seu computador: <a href="/assets/files/processo-dt.pdf">Download</a></p>
+              </object>
+            </section>
+
+            <section id="ti_especificacoes">
+              <h4>Especificações do Projeto</h4>
+              <p>Documentação das especificações do projeto.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEspecificacao">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseEspecificacao">
+                <p>Apresente as especificações do projeto, incluindo as histórias de usuário e os requisitos funcionais e não funcionais.</p>
+              </div>
+
+              <section>
+                <h5>Histórias de Usuários</h5>
+                <p>Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseHistorias">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseHistorias">
+                  <p>Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.</p>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">EU COMO...</th>
+                      <th scope="col">QUERO/PRECISO...</th>
+                      <th scope="col">PARA...</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza celular e computador para acessar a internet</th>
+                      <td>receber notificações de segurança sempre que um link suspeito for detectado em emails ou mensagens de textos</td>
+                      <td>evitar cair em golpes online.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza tablet e celular para aprender crochê e receitas culinárias</th>
+                      <td>ter acesso a tutoriais interativos e vídeos explicativos dentro da aplicação</td>
+                      <td>facilitar o aprendizado e a prática dessas atividades.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza celular para se manter conectado com a família</th>
+                      <td>ter uma funcionalidade de videochamada de fácil acesso e com boa qualidade de imagem e som</td>
+                      <td>conversar com meus familiares de forma mais próxima mesmo à distância.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza aplicativos como WhatsApp e Facebook</th>
+                      <td>ter um guia passo a passo dentro da aplicação SOFIA</td>
+                      <td>aprender a identificar perfis falsos e golpes e me proteger melhor enquanto uso essas redes sociais.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza o computador para acessar sites de notícias e consultar processos legais</th>
+                      <td>de um plugin de verificação de segurança que analise automaticamente os links desses sites</td>
+                      <td>evitar clicar em conteúdo malicioso.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza o celular para se informar sobre corridas e eventos esportivos na cidade</th>
+                      <td>receber alertas de segurança relacionados a eventos falsos ou golpes envolvendo ingressos e inscrições</td>
+                      <td>evitar fraudes.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Usuário idoso que utiliza o celular para se conectar com pacientes</th>
+                      <td>ter uma função de verificação de autenticidade de mensagens e emails recebidos</td>
+                      <td>garantir que estou interagindo apenas com pessoas reais e evitar enganos.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>ter um painel de controle centralizado para monitorar atividades suspeitas de usuários</td>
+                      <td>permitir uma intervenção rápida em caso de potenciais golpes ou ameaças.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>ter relatórios detalhados sobre o uso da aplicação por parte dos usuários idosos, incluindo métricas de engajamento, feedbacks e problemas relatados</td>
+                      <td>tomar decisões informadas e melhorar a experiência do usuário.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>enviar mensagens e alertas em massa para todos os usuários idosos cadastrados na aplicação</td>
+                      <td>fornecer informações importantes sobre novas ameaças e dicas de segurança online.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>de um sistema de suporte técnico integrado para atender rapidamente às dúvidas e problemas dos usuários idosos</td>
+                      <td>garantir uma experiência de uso tranquila e segura.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>ter um sistema de autenticação robusto e seguro para garantir que apenas usuários autorizados tenham acesso às funcionalidades avançadas da aplicação</td>
+                      <td>proteger assim os dados sensíveis dos idosos.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Administrador do sistema SOFIA</th>
+                      <td>integrar novas funcionalidades e atualizações de forma gradual e testada</td>
+                      <td>garantir uma transição suave e sem interrupções na experiência dos usuários idosos.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+
+              <section>
+                <h5>Requisitos</h5>
+                <p>As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseRequisitos">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseRequisitos">
+                  <p>Com base nas Histórias de Usuário, enumere os requisitos da sua
+                    solução. Classifique esses requisitos em dois grupos:</p>
+                  <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_funcional">Requisitos Funcionais (RF)</a>:
+                      correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).</li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional">Requisitos Não Funcionais (RNF)</a>: correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).</li>
+                  </ul>
+
+                  <p>Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.</p>
+                </div>
+
+                <p><strong>Requisitos Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Descrição do Requisito</th>
+                      <th scope="col">Prioridade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">RF-001</th>
+                      <td>Permitir que o usuário realize buscas através de palavras-chave.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-002</th>
+                      <td>Gerar artigos a partir do JSON Server.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-003</th>
+                      <td>Permitir que o usuário filtre os artigos por categoria.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-004</th>
+                      <td>Permitir que os usuários enviem denúncias de golpes digitais sofridos.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-005</th>
+                      <td>Permitir que o usuário visualize um mapa das regiões com mais incidência de golpes.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-006</th>
+                      <td>O usuário deve ser capaz de visualizar todas as suas interações com o sistema através do seu Perfil.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-007</th>
+                      <td>O usuário deve ser capaz de se cadastrar e realizar login através dos dados cadastrados.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-008</th>
+                      <td>O usuário deve ser capaz de comentar nos artigos.</td>
+                      <td>BAIXA</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong>Requisitos Não-Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Descrição do Requisito</th>
+                      <th scope="col">Prioridade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">RNF-001</th>
+                      <td>O sistema deve ser responsivo para ser capaz de ser executado em dispositivos móveis e desktop.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-002</th>
+                      <td>Deve utilizar tecnologia HTTPS.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-003</th>
+                      <td>Deve seguir as normas do LGPD e do Estatuto do Idoso.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-004</th>
+                      <td>Deve propor uma navegação autodidata ao usuário.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-005</th>
+                      <td>Deve ser capaz de armazenar as senhas dos usuários de forma criptografada.</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-006</th>
+                      <td>O sistema deve processar requisições do usuário em no máximo 5s.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-007</th>
+                      <td>O sistema deve ser compatível com os navegadores Microsoft Edge, Google Chrome, Mozilla Firefox, Safari e Opera.</td>
+                      <td>MÉDIA</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">RNF-008</th>
+                      <td>O sistema deve ser adaptável às necessidades especiais do usuário (alteração de tamanho de fonte, ajuste de brilho).</td>
+                      <td>MÉDIA</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </section>
+            </section>
+
+            <section id="ti_projeto_interfaces">
+              <h4>Projeto de Interface</h4>
+              <p>Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseInterface">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseInterface">
+                <p>Apresente a ideia de interface que está sendo prevista para o projeto. Inclua os wireframes, o user/screen flow e o protótipo interativo.</p>
+              </div>
+
+              <section>
+                <h5>User/Screen Flow e Protótipo interativo</h5>
+                <p>Artefatos relacionados com a interface e a interacão do usuário na solução proposta.
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseUserFlow">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseUserFlow">
+                  <p>O fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe. <img class="img-fluid" src="assets/images/exemplo-userflow.png" alt="Exemplo de fluxo de usuário">
+                  </p>
+                  <p>Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Veja o exemplo a seguir.<br>
+                    <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKQotjOI=/?moveToViewport=-1248,-1527,8130,3863&embedId=919963493901" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+                  </p>
+                </div>
+                <p><iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKQotjOI=/?moveToViewport=-1011,-1414,7658,3639&embedId=841991207375" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe><br>
+
+                  <b>Protótipo Interativo:</b><br>
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="850" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvKKt8lGzBKUtDr7becRlsd%2FUntitled%3Ftype%3Ddesign%26node-id%3D1-12%26t%3DIQkEgFkAjDDJgNj4-1%26scaling%3Dmin-zoom%70page-id%3D0%253A1%26starting-point-node-id%3D1%253A12%26mode%3Ddesign" allowfullscreen></iframe>
+                </p>
+              </section>
+
+              <section>
+                <h5>Wireframes</h5>
+                <p>Protótipo de telas do sistema em baixa fidelidade (rascunhos).
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseWireframes">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseWireframes">
+                  <p>Os Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface. <img class="img-fluid" src="assets/images/exemplo-wireframe.png" alt="Exemplo de wireframe"></p>
+                </div>
+                <p>
+                  <b>Tela inicial:</b>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-inicial.png" width="950" height="600"><br>
+                  <b>Tela de Login:</b>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-login.png" alt="Tela de Login" width="950" height="600"><br>
+                  <b>Tela de Cadastro de Usuário:</b>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-cadastro.png" alt="Tela de Cadastro" width="950" height="600"><br>
+                  <b>Tela Inicial após o login:</b>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-perfil.png" alt="Tela inicial após o login" width="950" height="600"><br>
+                </p>
+              </section>
+
+            </section>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Metodologia ============================ -->
+          <section id="ti_metodologia">
+            <h2>Metodologia</h2>
+            <p class="lead">Detalhes sobre a organização do grupo e o ferramental empregado.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseMetodologia">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseMetodologia">
+              <p>Nesta parte do documento, você deve apresentar a metodologia adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada agestão de configuração do projeto via GitHub.</p>
+              <p>Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.</p>
+            </div>
+
+            <section>
+              <h4 id="ti_ferramentas">Ferramentas</h4>
+              <p>Relação de ferramentas empregadas pelo grupo durante o projeto.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFerramentas">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseFerramentas">
+                <p>Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, ferramentas de comunicação, ferramentas de diagramação, plataformas de hospedagem, entre outras.</p>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ambiente</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Link de Acesso</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Processo de Design Thinking</td>
+                    <td>Miro</td>
+                    <td><a href="https://miro.com/app/board/uXjVKdA0GBw=/">https://miro.com/app/board/uXjVKdA0GBw=/</a></td>
+                  </tr>
+                  <tr>
+                    <td>Repositório de código</td>
+                    <td>GitHub</td>
+                    <td><a href="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0387100-sofia.git">https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0387100-sofia.git</a></td>
+                  </tr>
+                  <tr>
+                    <td>User Flow</td>
+                    <td>Miro</td>
+                    <td><a href="https://miro.com/app/board/uXjVKQotjOI=/">https://miro.com/app/board/uXjVKQotjOI=/</a></td>
+                  </tr>
+                  <tr>
+                    <td>Protótipo Interativo</td>
+                    <td>Figma</td>
+                    <td><a href="https://www.figma.com/proto/vKKt8lGzBKUtDr7becRlsd/Sofia?type=design&node-id=1-12&t=lFPrjUfentdxV3ol-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A12&mode=design">https://figma.com/SOFIA</a></td>
+                  </tr>
+                  <tr>
+                    <td>Wireframe</td>
+                    <td>Figma</td>
+                    <td><a href="https://www.figma.com/file/GF4igj7VVGKD7AHdsxwrfh/SOFIA?type=design&node-id=0%3A1&mode=dev&t=AOuoK8TH0A9O1lz9-1">https://www.figma.com/file/GF4igj7VVGKD7AHdsxwrfh/SOFIA?type=design&node-id=0%3A1&mode=dev&t=AOuoK8TH0A9O1lz9-1</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <section id="ti_gestao_projeto">
+              <h4>Gestão do Projeto</h4>
+              <p>Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapsePapeis">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePapeis">
+                <p>Apresente a divisão de papéis e tarefas entre os membros do grupo. Informe quem é o Scrum Master, o Product Owner e os desenvolvedores. Informe também quem é o responsável pela documentação do projeto.</p>
+                <p>Apresente o quadro de gerenciamento do time (Kanban), seu formato e as experiências na utilização dessa ferramenta (GitHub Projects) </p>
+              </div>
+              <p>A divisão do grupo foi feita da seguinte forma:<br>
+                Scrum Master: Victor Guimarães<br>
+                Product Owner: Fernanda Sabino<br>
+                Desenvolvedor: Lucas Ledsham<br>
+                Desenvolvedor: Kelvin Mendes<br>
+                A Documentação do projeto ficou como uma responsabilidade de todos os membros do grupo.<br>
+                <img src="assets/images/kanban.png" alt="Kanban" width="800" height="500">
+              </p>
+            </section>
+
+
+            <section id="ti_controle_versao">
+              <h4>Controle de Versão</h4>
+              <p>Estrutura do fluxo de trabalho no ambiente do GitHub.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseVersao">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseVersao">
+                <p>Discuta como a configuração do projeto foi feita na ferramenta de versionamento (GitHub). Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.<br>
+                  <img class="img-fluid" src="assets/images/exemplo-workflow.png" alt="">
+                </p>
+              </div>
+              <p>O grupo seguirá o fluxo padrão do GitHub.</p>
+            </section>
+          </section>
+          <hr class="divider">
+
+          <!-- Funcionalidades ==================== -->
+          <section id="ti_solucao">
+            <h2>Solução</h2>
+            <p class="lead">Esta seção apresenta todos os detalhes da solução criada no projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseSolucao">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseSolucao">
+              <p>Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.</p>
+              <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
+            </div>
+
+            <section id="ti_video">
+              <h4>Video do Projeto</h4>
+              <p>O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseVideo">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseVideo">
+                <p>O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.</p>
+                <p>Utilize o recurso de compartilhamento via embed e inclua o vídeo logo abaixo.</p>
+              </div>
+              <p><embed src="../docs/assets/" type=""></p>
+            </section>
+
+            <section id="ti_funcionalidades">
+              <h4>Funcionalidades</h4>
+              <p> - Exibição de Artigos via JSON Server<br>
+                - Busca por palavras-chave
+                <br>
+                - Filtro de artigos por categoria
+                <br>
+                - Central de Denúncias
+                <br>
+                - Mapa de Golpes
+                <br>
+                - Comentários nos artigos
+                <br>
+                - Perfil com interações do usuário
+                <br>
+                - Cadastro de usuários e login
+
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFuncionalidades">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseFuncionalidades">
+                <p>Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.</p>
+                <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
+              </div>
+
+              <section>
+                <h5>Funcionalidade 1 - Mapa de Exibição</h5>
+                <p>Permite a visualização de regiões que estão mais propícias a idosos levarem golpes</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_regioes">Regiões </a></li>
+                  <li><strong>Instruções de acesso: </strong>
+                    <ul>
+                      <li>Faça o login</li>
+                      <li>Vá para a Seção Mapa de Denúncias</li>
+                      <li>Observe os dados gerados</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="text-center"><img class="img-fluid" src="assets/images/mapadeexibicao.jpg" alt="Tela Cadastro de Contatos"></p>
+              </section>
+            </section>
+
+            <section>
+              <h5>Funcionalidade 2 - Central de Denuncias</h5>
+              <p> Permite o cadastro de uma denuncia de um golpe</p>
+              <ul class="list-unstyled">
+                <li><strong>Estrutura de dados: </strong><a href="#ti_ed_reports">Reports</a></li>
+                <li><strong>Instruções de acesso: </strong>
+                  <ul>
+                    <li>Faça o login</li>
+                    <li>Vá para a Seção Central de Denúncias</li>
+                    <li>Responda o formulário</li>
+                    <li>Observe a Danúncia sendo gerado</li>
+                  </ul>
+                </li>
+              </ul>
+              <p class="text-center"><img class="img-fluid" src="assets/images/centraldedenuncias.jpg" alt="Tela Cadastro de Central de Denuncias"></p>
+            </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 3 - Exibição de Artigo</h5>
+            <p>Permite, leitura de um artigo</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Informativos</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Vá para a Página Inicial</li>
+                  <li>Desça a tela até a seção Artigos Recentes para visualizar os cards gerados através do JSON Server</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/exibicaodeartigo.jpg" alt="Tela Exibição de Artigo"></p>
+          </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 4 - Filtro de Categoria</h5>
+            <p>Permite colocar um filtro na pagina de artigos</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Categorias</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Vá para a Página Inicial</li>
+                  <li>Em seguida, selecione o filtro escolhido</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 5 - Buscador </h5>
+            <p>Permite a busca artigos pelo titulo</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_informativos">Informativos</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e vá até a seção Artigos Recentes </li>
+                  <li>Em seguida, pesquise por uma palavra-chave no campo de busca</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 6 - Cadastro de Usuario</h5>
+            <p>Permite a inclusão de usuarios para o sistema</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_usuarios"> Usuarios</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Acesse o menu principal e no menu clique em Cadastre-se/li>
+                  <li>Em seguida, preencha o formulário de cadastro</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/cadastrodeusuario.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 7 - Perfil do Usuario / Mostrar Relatos e Comentários Cadastrados</h5>
+            <p>Permite a inclusão, leitura, alteração e exclusão de relatos e comentarios</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentariosereports">Comentarios e Reports</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e vá para o ícone de Perfil</li>
+                  <li>Em seguida, aparecerá as informações</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/perfildousuario.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
+
+          <section>
+            <h5>Funcionalidade 8 - Campo de Comentários na Página do Artigo</h5>
+            <p>Permite a inclusão de um comentario na pagina de artigos</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentarios">Comentarios</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e clique em um dos cards de Artigo</li>
+                  <li>Abaixe até o final da tela e faça seu comentário</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/campodecomentários.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
+
+
+          <!-- Estruturas de dados =============== -->
+          <section id="ti_estruturas_dados">
+            <h4>Estruturas de Dados</h4>
+            <p>Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEstruturas">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseEstruturas">
+              <p>Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração</p>
+              <p>Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.</p>
+            </div>
+
+            <section>
+              <h5>Estrutura de Dados - Usuarios</h5>
+              <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
+              <pre>
+                  {
+                    "id": 1,
+                    "login": "admin",
+                    "senha": "123",
+                    "nome": "Administrador do Sistema",
+                    "email": "admin@abc.com"
+                  }
+                </pre>
+            </section>
+
+            <section>
+              <h5>Estrutura de Dados - Informativos</h5>
+              <p>Registro dos artigos cadastrados</p>
+              <pre>
+                  {
+                    "id": 1,
+                    "titulo": "Golpe do Empréstimo Consignado: saiba como se proteger",
+                    "imagem": "../assets//img/golpe_consignado.png",
+                    "conteudo": "O Crédito consignado tem servido como isca para criminosos atraírem funcionários públicos, aposentados e pensionistas do INSS. Saiba como identificar esse tipo de golpe e se proteger das ameaças.",
+                    "categoriaId": 1,
+                    "dataDePublicacao": "2024-05-19"
+                  }
+                </pre>
+            </section>
+
+
+            <section>
+              <h5>Estrutura de Dados - Categorias</h5>
+              <p>Registro das categorias utilizados na pagina de artigos</p>
+              <pre>
+                { 
+                  "id": 1, 
+                  "nome": "Segurança" 
+                }
+            
+              </pre>
+            </section>
+
+            <section>
+              <h5>Estrutura de Dados - Incidentes</h5>
+              <p>Registro das denuncias</p>
+              <pre>
+              "reports": [
+    {
+      "id": "7684",
+      "name": "Lucas",
+      "email": "lucas@email.com",
+      "city": "Belo Horizonte",
+      "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+    }
+  ]
+            </pre>
+            </section>
+
+            <section>
+              <h5>Estrutura de Dados - Regioes</h5>
+              <p>Registro das regioes das denuncias para complementar o mapa</p>
+              <pre>
+                "regioes": [
+                {
+                  "id": "1",
+                  "regiaoId": 1,
+                  "nome": "Regional Norte",
+                  "coords": [
+                    -19.8704,
+                    -43.9346
+                  ]
+                }
+          </pre>
+            </section>
+
+            <section>
+              <h5>Estrutura de Dados - Reports</h5>
+              <p>Registro da central de denuncia </p>
+              <pre>
+                "reports": [
+                {
+                  "id": "7684",
+                  "name": "Lucas",
+                  "email": "lucas@email.com",
+                  "city": "Belo Horizonte",
+                  "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+                }
+              ]
+          </pre>
+            </section>
+
+            <section>
+              <h5>Estrutura de Dados - Comentarios</h5>
+              <p>Registro de um comentario na pagina de artigos</p>
+              <pre>
+                "comentarios": [
+                {
+                  "id": "d502",
+                  "texto": "Estou adorando os conteúdos da página. Continuem com o bom trabalho. PARABÉNS!!!"
+                }
+              ]
+          </pre>
+            </section>
+
+
+            <!-- Módulos e APIs ================= -->
+            <section id="ti_modulos_apis">
+              <h4>Módulos e APIs</h4>
+              <p>Esta seção apresenta os módulos e APIs utilizados na solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseModulos">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseModulos">
+                <p>Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.</p>
+              </div>
+
+              <section>
+                <h5>Fonts:</h5>
+                <ul>
+                  <li>Icons Font Face - <a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a></li>
+                </ul>
+              </section>
+
+              <section>
+                <h5>Scripts:</h5>
+                <ul>
+                  <li>Bootstrap 4 - <a target="_blank" href="http://getbootstrap.com/">http://getbootstrap.com/</a></li>
+                </ul>
+              </section>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- FAQ ============================ -->
+          <section id="ti_faq">
+            <h2>FAQ</h2>
+            <p class="lead">Perguntas e respostas comuns associadas ao projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFAQ">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseFAQ">
+              <p>Apresente uma lista de perguntas e respostas comuns associadas ao projeto. Inclua perguntas como: (1) detalhes de acesso e uso do projeto; (2) informações sobre a instalação e configuração da aplicação; (3) questões sobre a manutenção da aplicação; (4) detalhes sobre a integração da aplicação com outros sistemas; (5) questões sobre a segurança da aplicação.</p>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+                  <div class="card">
+                    <div class="card-header" id="heading1">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"> Como posso acessar a aplicação?</a> </h5>
+                    </div>
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                      <div class="card-body"> Você pode acessar a aplicação através do link fornecido pelo administrador do sistema. Certifique-se de ter as credenciais de login corretas. </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading2">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Quais são os requisitos de sistema para usar a aplicação?</a> </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                      <div class="card-body"> A aplicação pode ser usada em qualquer navegador moderno como Chrome, Firefox, ou Edge. Recomendamos uma conexão de internet estável para um desempenho ótimo. </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading3">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Como são feitas as atualizações no site SOFIA?
+                        </a> </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                      <div class="card-body">As atualizações do site SOFIA são gerenciadas pela equipe de desenvolvimento. Os usuários não precisam realizar nenhuma ação para atualizar o site. </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="heading3">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">O site SOFIA pode ser integrado com outras ferramentas ou plataformas?
+                          </a> </h5>
+                      </div>
+                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                        <div class="card-body"> Atualmente, o site SOFIA não oferece integrações com outras ferramentas ou plataformas, pois é uma plataforma independente focada em fornecer informações e recursos diretamente aos usuários. </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="heading3">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Quem desenvolveu o site SOFIA?
+
+                          </a> </h5>
+                      </div>
+                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                        <div class="card-body"> O site SOFIA foi desenvolvido por uma equipe dedicada de profissionais que utilizam tecnologias como Bootstrap e JSON Server para criar uma experiência de usuário eficiente e segura.</div>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Referências Bibliográficas ================= -->
+          <section id="ti_referencias">
+            <h2>Referências Bibliográficas</h2>
+            <p class="lead">Esta seção apresenta as referências bibliográficas utilizadas no projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseReferencias">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseReferencias">
+              <p>Apresente as referências bibliográficas utilizadas no projeto. Inclua itens como: (1) livros, artigos, tutoriais, etc. utilizados no desenvolvimento da solução; (2) links para sites, blogs, etc. utilizados no desenvolvimento da solução.</p>
+            </div>
+            <section>
+              <ul>
+                <li>G1 - <a target="_blank" href="https://g1.globo.com/jornal-nacional/noticia/2023/07/03/numero-de-golpes-contra-pessoas-idosas-cresce-mais-de-70percent-em-2023.ghtml">https://g1.globo.com/jornal-nacional/noticia/2023/07/03/numero-de-golpes-contra-pessoas-idosas-cresce-mais-de-70percent-em-2023.ghtml</a></li>
+              </ul>
+            </section>
+            <section>
+              <ul>
+                <li>Estado de Minas - <a target="_blank" href="https://www.em.com.br/app/noticia/tecnologia/2023/07/11/interna_tecnologia,1518903/pesquisa-revela-71-dos-brasileiros-ja-foram-vitimas-de-golpes-virtuais.shtml">https://www.em.com.br/app/noticia/tecnologia/2023/07/11/interna_tecnologia,1518903/pesquisa-revela-71-dos-brasileiros-ja-foram-vitimas-de-golpes-virtuais.shtml</a></li>
+              </ul>
+            </section>
+            <section>
+              <ul>
+                <li>O Globo - <a target="_blank" href="https://oglobo.globo.com/patrocinado/dino/noticia/2024/01/05/golpes-digitais-aumentaram-35-em-2023-no-brasil.ghtml">https://oglobo.globo.com/patrocinado/dino/noticia/2024/01/05/golpes-digitais-aumentaram-35-em-2023-no-brasil.ghtml</a></li>
+              </ul>
+            </section>
+          </section>
+
+        </div>
+      </div>
+      <!-- Content end -->
+    </main>
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+        <p class="text-center"><strong>Trabalho Interdisciplinar - ICEI PUC Minas</strong><br>Modelo adaptado de <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a> - Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a></p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Document Wrapper end -->
+  </div>
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Topo" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript ============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
