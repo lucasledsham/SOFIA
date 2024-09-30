@@ -86,7 +86,11 @@ https://github.com/lucasledsham/sofia-PUC.git
 ### 3. Navegar até o diretório do projeto
 
 ```sh
-cd servidor-jsonserver
+cd codigo
+```
+
+```sh
+cd SOFIA
 ```
 
 ### 4. Instalar o json-server
